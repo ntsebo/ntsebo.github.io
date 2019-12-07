@@ -1,0 +1,82 @@
+*{
+	list-style-type:none;
+
+}
+
+.home{
+	 
+	
+	font:16px;
+}
+.personal{
+	
+	float:left ;
+	width:800px;
+
+}
+
+.clear{
+	clear:both;
+}
+
+.about{
+
+	font:16px; 
+}
+
+header,nav,div,article,section,footer{
+	display:block;
+}
+
+.container{
+	width:1000px;
+	margin:0px auto;
+
+}
+.logo{
+	width:100px;
+	height:100px;
+	float:left;
+}
+
+
+.leftSide{
+	float:right;
+	width:450px;
+    padding-top: 20px;
+    
+} 
+} 
+
+.rightSide{
+	float:left;
+	width:296px;
+	border:2px solid black;
+
+}
+.pageFooter{
+	clear:both;
+	padding:10px 0px;
+}
+
+a{
+	text-decoration:none;
+}
+
+.personal{
+	margin:0px;
+	padding:0px 100px 0px 200px ;
+}
+
+.footer{
+	padding-top: 100px
+}
+
+.social{
+	padding:10px 0px 0px 40px;
+}
+
+
+.body {
+    
+}
