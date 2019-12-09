@@ -41,10 +41,10 @@ header,nav,div,article,section,footer{
 
 
 .leftSide{
-	float:right;
-	width:450px;
+    width: auto;
     padding-top: 20px;
-    
+    padding-right: 100px;
+    padding-left: 100px;
 } 
 } 
 
@@ -57,6 +57,7 @@ header,nav,div,article,section,footer{
 .pageFooter{
 	clear:both;
 	padding:10px 0px;
+    padding-top: 100px;
 }
 
 a{
@@ -65,16 +66,25 @@ a{
 
 .personal{
 	margin:0px;
-	padding:0px 100px 0px 200px ;
+	padding:15px 15px 15px 15px ;
+    border: solid grey;
+    width: inherit;
+    margin-bottom: 40px;
+   
+}
+
+.contact {
+    float: right;
+    border: solid grey;
+    color:blue;
+    height: 360px;
 }
 
 .footer{
 	padding-top: 100px
 }
 
-.social{
-	padding:10px 0px 0px 40px;
-}
+
 
 
 .body {
