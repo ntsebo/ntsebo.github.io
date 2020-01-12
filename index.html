@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>home</title>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
         <link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="main.css"/> 
 	</head>
@@ -11,7 +13,9 @@
            <div class = "container-fluid">
                <h1 style = "padding: 25px; background-color: Antiquewhite; color:grey; border-bottom: solid;">Welcome to my world </h1><br>
                     <header>
-                        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="position: relative; bottom: 40px;">
+                        <!--<nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="position: relative; bottom: 40px;">
+                            
+                            
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html"> <button class="btn btn-info navbar-btn">Home</button></a>
@@ -20,15 +24,32 @@
                                     <a class="nav-link" href="bio.html"><button class="btn btn-info navbar-btn">About me</button> </a>
                                 </li>
                             </ul>
-                        </nav>   
+                        </nav> -->
+                           <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                              <!-- Toggler/collapsibe Button -->
+                              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+
+                              <!-- Navbar links -->
+                              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                                <ul class="navbar-nav">
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="bio.html">About me </a>
+                                  </li>
+                                </ul>
+                              </div>
+                        </nav>
                     </header>
-               
             <div class="row">
-				<div class="col-md-3" >
-					<img src="me3.jpg" class="img-responsive" width="100%" height="360px">
-					<!--<p align="center" style="font-size: 30px; ">Ntsebo Hlajoane</p>-->
+                <div class="col-md-3" >
+                    <img src="me3.jpg" class="img-responsive" width="100%" height="360px">
+                        <!--<p align="center" style="font-size: 30px; ">Ntsebo Hlajoane</p>-->
                 </div>    
-                
+
                     
                 <div class = "col-md-6">
                         <h3 style="text-align: center">This is the house of RawSpirit</h3> 
